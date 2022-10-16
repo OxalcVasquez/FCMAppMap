@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"
+        android:textSize="22dp"
+        android:text="Titulo"
+        android:id="@+id/txtTituloMensajeRemoto"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:text="Texto del mensaje"
+        android:id="@+id/txtTextoMensajeRemoto"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el nombre de un tema de interés, sobre el cual desea recibir promociones:"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTemaInteres"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suscríbete"
+        android:id="@+id/btnSuscribete"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anular suscripción"
+        android:backgroundTint="#ff0000"
+        android:id="@+id/btnAnularSuscripcion"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión"
+        android:backgroundTint="@android:color/background_dark"
+        android:id="@+id/btnLogin"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:text="Registra tu direccion"
+    />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tilDireccion"
+        android:hint="Direccion"
+        app:endIconMode="custom"
+        app:endIconDrawable="@drawable/ic_direccion_pin"
+        app:startIconDrawable="@drawable/ic_mapa">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_direccion"
+            android:layout_width="match_parent"
+            android:inputType="textPostalAddress"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar direccion"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:id="@+id/btnRegistrarDireccion"/>
+
+
+</LinearLayout>

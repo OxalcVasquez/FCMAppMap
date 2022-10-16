@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "428268463866",
+    "project_id": "jovf-dam",
+    "storage_bucket": "jovf-dam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428268463866:android:3d0bdce416d7a2dbba8b43",
+        "android_client_info": {
+          "package_name": "com.vasquez.fernandez.AppTemplateFCM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428268463866-b4oq31b3vgddl85sbr54skm8vm2sprnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOiYHQhqDTwuSKSNpYkjlzawKrj-ZUQ68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428268463866-b4oq31b3vgddl85sbr54skm8vm2sprnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
